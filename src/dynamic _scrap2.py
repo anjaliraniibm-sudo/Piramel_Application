@@ -147,6 +147,7 @@ def scrape_articles_from_url(driver, url,keywords,csv_file_path, write_headers=F
 # -------------------- Main Function --------------------
 def main():
     print("🚀 Starting the scraping process...")
+    
 
     try:
         script_dir = os.path.dirname(os.path.abspath(__file__))
